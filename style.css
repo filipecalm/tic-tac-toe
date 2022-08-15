@@ -48,15 +48,12 @@ body {
 	box-shadow: none;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
   .quadrado {
-    text-align: center;
     width: 5px;
     height: 5px;
-    display: inline-block;
     padding: 40px;
-    font-size: 60px;
-    cursor: pointer;
-    color: #fff;   
+    font-size: 40px;
+    cursor: pointer;  
   }
 }
