@@ -119,8 +119,8 @@ function reiniciar()
 
     for (var i = 1; i <= 9; i++) {
         var quadrado = document.getElementById(i);
-        quadrado.style.background = '#eee';
-        quadrado.style.color = '#eee';
+        quadrado.style.background = '#fff';
+        quadrado.style.color = '#fff';
         quadrado.innerHTML = '-';
     }
 
