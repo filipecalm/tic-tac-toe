@@ -1,14 +1,17 @@
 body {
   text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 .quadrado {
   text-align: center;
-  width: 50px;
+  width: 100px;
+  height: 100px;
   background: #eee;
   display: inline-block;
   padding: 40px;
-  font-size: 60px;
+  font-size: 100px;
   margin: 5px;
   cursor: pointer;
   color: #eee;
@@ -19,6 +22,9 @@ body {
   margin-top: 10px;
 }
 
+.vencedor {
+  margin-bottom: 1rem;
+}
 
 .button {
 	width: 5rem;
@@ -33,4 +39,18 @@ body {
 .button:active {
 	transform: translate(0, .3rem);
 	box-shadow: none;
+}
+
+@media (max-width:1000px) {
+  .quadrado {
+    text-align: center;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;   
+  }
 }
