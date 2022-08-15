@@ -8,13 +8,12 @@ body {
   text-align: center;
   width: 100px;
   height: 100px;
-  background: #eee;
+  background: #fff;
   display: inline-block;
   padding: 40px;
   font-size: 100px;
-  margin: 5px;
   cursor: pointer;
-  color: #eee;
+  color: #fff;
 }
 
 .jogador, .vencedor {
@@ -24,6 +23,14 @@ body {
 
 .vencedor {
   margin-bottom: 1rem;
+}
+
+.right-border  {
+  border-right: 0.1em solid black;
+}
+
+.bottom-border {
+  border-bottom: 0.1em solid black;
 }
 
 .button {
@@ -51,6 +58,6 @@ body {
     font-size: 60px;
     margin: 5px;
     cursor: pointer;
-    color: #eee;   
+    color: #fff;   
   }
 }
